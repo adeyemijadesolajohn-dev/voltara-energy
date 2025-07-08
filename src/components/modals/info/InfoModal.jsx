@@ -1,4 +1,3 @@
-// src/components/modals/InfoModal.jsx
 import React from "react";
 import { Icons } from "../../../data/Assets";
 

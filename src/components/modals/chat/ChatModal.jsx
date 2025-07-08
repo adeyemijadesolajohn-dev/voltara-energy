@@ -1,4 +1,3 @@
-// src/components/modals/ChatModal.jsx
 import React from "react";
 import { Icons } from "../../../data/Assets";
 

@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
 import "./LineChart.scss";
-import { Icons } from "../../../data/Assets";
 import { data } from "../../../data/PaymentTrendData";
 import {
   LineChart,

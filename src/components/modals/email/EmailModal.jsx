@@ -1,4 +1,3 @@
-// src/components/modals/EmailModal.jsx
 import React from "react";
 import { Icons } from "../../../data/Assets";
 
