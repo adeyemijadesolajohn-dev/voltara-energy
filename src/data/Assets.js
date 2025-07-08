@@ -92,6 +92,8 @@ import {
   MdOutlineRealEstateAgent as Realtor,
   MdCancelPresentation as Cancel,
   MdOutlinePin as Pin,
+  MdOutlineWatchLater as Outstanding,
+  MdOutlineJoinRight as Partnership,
 } from "react-icons/md";
 import {
   LiaMoneyBillWaveSolid as Bills,
@@ -111,6 +113,7 @@ import {
   RiUserLocationLine as Address,
   RiShareForward2Fill as Share2,
   RiMailSendLine as EmailShare,
+  RiLineChartFill as LineChart,
 } from "react-icons/ri";
 import {
   BiSearchAlt as Search,
@@ -122,6 +125,7 @@ import {
   GiPassport as Passport,
   GiIdCard as DriversLicense,
   GiMeshNetwork as LocationConnection,
+  GiProfit as Revenue,
 } from "react-icons/gi";
 import {
   ImUsers as Partner,
@@ -295,6 +299,10 @@ export const Icons = {
   TableExport,
   Cancel,
   Pin,
+  Outstanding,
+  Revenue,
+  Partnership,
+  LineChart,
 };
 
 export const Public = {

@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import "./Daily.scss";
 import Chart from "../charts/areaChart/AreaChart";
 import { Icons } from "../../data/Assets";

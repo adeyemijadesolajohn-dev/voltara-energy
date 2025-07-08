@@ -35,7 +35,7 @@ export const NavigationLinks = [
     id: 6,
     title: "Analytics",
     icon: Icons.Analysis,
-    // link: "/Dashboard/Analytics",
+    link: "/Dashboard/Analytics",
   },
 ];
 

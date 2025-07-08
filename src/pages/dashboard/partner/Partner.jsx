@@ -3,40 +3,40 @@ import "./Partner.scss";
 import Sidebar from "../../../components/sidebar/Sidebar";
 import NavBadge from "../../../components/navBadge/NavBadge";
 import Navbar from "../../../components/navbar/NavbarPartner";
-import Widget from "../../../components/widgets/WidgetPayment";
-import Table from "../../../components/tables/PaymentTable";
+import Widget from "../../../components/widgets/WidgetPartner";
+import Table from "../../../components/tables/Partner";
 import { Public, Icons } from "../../../data/Assets";
 
 const Partner = () => {
   return (
-    <div className="paymentPage">
-      <div className="paymentTitle">
-        <div className="paymentLogo">
-          <img className="paymentLogoImage" src={Public.Logo} alt="logo" />
+    <div className="partnerPage">
+      <div className="partnerTitle">
+        <div className="partnerLogo">
+          <img className="partnerLogoImage" src={Public.Logo} alt="logo" />
 
-          <div className="paymentLogoName">
-            <h4 className="paymentLogoText">Voltara</h4>
+          <div className="partnerLogoName">
+            <h4 className="partnerLogoText">Voltara</h4>
 
-            <p className="paymentLogoSubText">Energy Solutions</p>
+            <p className="partnerLogoSubText">Energy Solutions</p>
           </div>
         </div>
       </div>
 
-      <div className="paymentContent">
+      <div className="partnerContent">
         <Sidebar />
 
-        <div className="paymentContainer">
+        <div className="partnerContainer">
           <NavBadge />
           <Navbar />
 
-          <div className="paymentWidgets">
-            <Widget type="name" />
-            <Widget type="account" />
-            <Widget type="paymentStatus" />
-            <Widget type="currentBalance" />
+          <div className="partnerWidgets">
+            <Widget type="users" />
+            <Widget type="orders" />
+            <Widget type="outstanding" />
+            <Widget type="revenue" />
           </div>
 
-          <div className="paymentTable">
+          <div className="partnerTable">
             <Table />
           </div>
         </div>

@@ -9,6 +9,7 @@ import Customer from "./pages/dashboard/customer/Customer";
 import Account from "./pages/dashboard/account/Account";
 import Payment from "./pages/dashboard/payment/Payment";
 import Partner from "./pages/dashboard/partner/Partner";
+import Analytics from "./pages/dashboard/analytics/Analytics";
 import ElectricBill from "./pages/electricBill/ElectricBill";
 
 const router = createBrowserRouter([
@@ -73,6 +74,14 @@ const router = createBrowserRouter([
     element: (
       <div>
         <Partner />
+      </div>
+    ),
+  },
+  {
+    path: "/Dashboard/Analytics",
+    element: (
+      <div>
+        <Analytics />
       </div>
     ),
   },
